@@ -1,0 +1,153 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background-color: #0a172a;
+  color: white;
+  padding: 10px 20px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.hero-section {
+  background-color: #4bb3fd;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-section h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.riwayat-section {
+  padding: 30px 20px;
+  margin-right: 20rem;
+  margin-left: 20rem;
+}
+
+.riwayat-section h2 {
+  color: #4bb3fd;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.riwayat-card {
+  background-color: #e8f4ff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.riwayat-card span {
+  color: #333;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.title {
+  font-weight: bold;
+  color: #333;
+  flex: 1;
+}
+
+.date,
+.price {
+  flex: 0;
+  text-align: right;
+  margin-left: 20px;
+}
+
+.form {
+  text-align: left;
+  margin: 5rem 20rem 5rem 20rem;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+.btn {
+  background-color: #0056b3;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #003f8a;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .riwayat-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .riwayat-card span {
+    margin: 5px 0;
+    text-align: left;
+  }
+}
