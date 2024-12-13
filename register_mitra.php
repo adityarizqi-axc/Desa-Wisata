@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Mitra</title>
-    <link rel="stylesheet" href="css\pages\RegisterMitra\style.css">
+    <link rel="stylesheet" href="css\pages\RegisterMitra\style.css?v=1.0">
 </head>
 <body>
     <div class="container">

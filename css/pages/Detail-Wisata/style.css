@@ -113,8 +113,9 @@ nav ul li a {
 }
 
 .stars {
-  color: #ffd700;
+  color: #ffee00;
   font-size: 1em;
+  margin-left: 1em;
 }
 
 .review-card p {
