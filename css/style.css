@@ -99,6 +99,16 @@ nav ul li a {
   font-size: 1.5em;
 }
 
+.tambah-btn {
+  background-color: #0077e7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
 .card {
   background: #e8f4ff;
   border-radius: 10px;

@@ -70,7 +70,28 @@ nav ul li a {
 }
 
 .btn-primary {
-  background-color: #0a172a;
+  background-color: #0099ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  width: 10%;
+}
+
+.edit {
+  background-color: #fcc100;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: #bd0000;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -95,7 +116,7 @@ nav ul li a {
 
 .review-section {
   padding: 20px;
-  background-color: #f8f8f8;
+  background: linear-gradient(0deg, #0066ff, #00eeff);
 }
 
 .review-card {
@@ -104,6 +125,35 @@ nav ul li a {
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.delete-review {
+  color: red;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+.delete-riwayat {
+  background-color: #bd0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.riwayat-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 3rem;
+  margin-top: 5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .review-card h3 {
@@ -121,6 +171,74 @@ nav ul li a {
 .review-card p {
   margin: 10px 0 0;
   line-height: 1.4;
+}
+
+.form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.riwayat-card {
+  background-color: #e8f4ff;
+  padding: 20px;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 4rem;
+  border-radius: 1em;
+}
+
+.riwayat-card td {
+  border-radius: 1em;
+  color: #333;
+  font-size: 1em;
+  font-weight: normal;
+  margin-left: 1rem;
+  text-align: center;
+  width: 30rem;
+}
+
+.riwayat-header {
+  background-color: #002f5c;
+  padding: 20px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 4rem;
+  border-radius: 1em;
+  width: 100%;
+}
+
+.riwayat-header th {
+  color: #ffffff;
+  border-radius: 1em;
+  font-size: 1em;
+  font-weight: normal;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+input,
+select {
+  width: 20%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  border-color: #0056b3;
+  outline: none;
 }
 
 /* Responsiveness */
