@@ -48,7 +48,6 @@ $review = mysqli_fetch_all($query_review, MYSQLI_ASSOC);
 //Fetch tiket
 $query_tiket = mysqli_query($connect, "SELECT tanggal_datang, COUNT(tanggal_datang) as jumlah_tiket, SUM(harga) as pendapatan FROM id_tiket WHERE id_wisata = $id_wisata Group by tanggal_datang");
 $tiket = mysqli_fetch_all($query_tiket, MYSQLI_ASSOC);
-print_r($tiket);
 
 ?>
 
